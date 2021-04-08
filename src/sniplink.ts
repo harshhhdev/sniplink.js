@@ -7,14 +7,10 @@ export class GetSnippedLink {
     this.id = id
   }
 
-  public async getPaste() {
+  async getLink() {
     const response = await axios.get(
       `https://beta.sniplink.net/api/v1/link/${this.id}`
     )
-
-    return response
+    return response.data
   }
 }
-
-const SnippedLink = new GetSnippedLink('j1W')
-console.log(SnippedLink)
