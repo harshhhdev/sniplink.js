@@ -1,0 +1,14 @@
+{
+  "name": "sniplink.js",
+  "version": "0.0.1",
+  "description": "A Node.js API wrapper for SnipLink",
+  "main": "dist/sniplink.js",
+  "repository": "https://github.com/harshhhdev/sniplink.js",
+  "author": "Harsh Singh <hi.harsh@protonmail.ch>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "axios": "^0.21.1"
+  }
+}
