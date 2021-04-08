@@ -12,7 +12,7 @@ export class GetSnippedLink {
       `https://beta.sniplink.net/api/v1/link/${this.id}`
     )
 
-    return response.data
+    return response
   }
 }
 
