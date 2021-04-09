@@ -7,7 +7,6 @@
   "repository": "https://github.com/harshhhdev/sniplink.js",
   "author": "Harsh Singh <hi.harsh@protonmail.ch>",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "@types/node": "^14.14.37",
     "axios": "^0.21.1",
