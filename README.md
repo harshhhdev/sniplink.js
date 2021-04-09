@@ -32,3 +32,27 @@ new sniplink.GetSnippedLink('jvX')
   .catch((err) => console.log(err))
 
 ```
+
+# 🚀 Building
+
+1. Clone this repo
+
+```zsh
+git clone https://github.com/harshhhdev/sniplink.js.git
+```
+
+2. Install dependencies
+
+```zsh
+yarn
+```
+
+3. Start the development environment
+
+```zsh
+# npm run watch
+yarn watch
+
+# npm run dev
+yarn dev
+```
