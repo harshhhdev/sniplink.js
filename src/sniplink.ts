@@ -16,22 +16,24 @@ export class GetSnippedLink {
 }
 
 export class CreateSnippedLink {
-  expirationTime: string
+  expirationTime: number
   value: string
 
-  constructor(expirationTime: string, value: string) {
+  constructor(expirationTime: number, value: string) {
     this.expirationTime = expirationTime
     this.value = value
   }
 
-  public async createSnippedLink() {
-    const response = await axios.post(
-      'https://beta.sniplink.net/api/v1/link/',
-      {
-        expirationTime: this.expirationTime,
-        value: this.value,
-      }
-    )
+  async createSnippedLink() {
+    const response = await axios.post('https://beta.sniplink.net/api/v1/link', {
+      expirationTime: this.expirationTime,
+      value: this.value,
+    })
     return response.data
   }
 }
+
+new CreateSnippedLink(1618536464, 'https://google.com/')
+  .createSnippedLink()
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err))

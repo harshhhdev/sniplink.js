@@ -653,6 +653,15 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
+sniplink.js@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sniplink.js/-/sniplink.js-0.0.3.tgz#08127a889dfae590027399e339deda12a2d3893b"
+  integrity sha512-5194+aoq2OJcLGflzCp1poa7VkSMSQWyCNINiJ2mfU+bt8KTnU7oSN7fgnzU4yxup1GsrL3TnW59TcLhfZD4fQ==
+  dependencies:
+    "@types/node" "^14.14.37"
+    axios "^0.21.1"
+    typescript "^4.2.4"
+
 string-width@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
