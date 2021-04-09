@@ -15,6 +15,7 @@
 ```ts
 import * as sniplink 'sniplink.js''
 
+// expiration time must be in unix timestamp
 new sniplink.CreateSnippedLink('1618536464', 'https://google.com/')
   .createSnippedLink()
   .then((res) => console.log(res))
@@ -51,8 +52,10 @@ yarn
 
 ```zsh
 # npm run watch
+# starts TypeScript watch
 yarn watch
 
 # npm run dev
+# starts nodemon
 yarn dev
 ```
