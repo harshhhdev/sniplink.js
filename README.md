@@ -13,10 +13,10 @@
 ### 🔗 Creating a snipped link
 
 ```ts
-import * as sniplink 'sniplink.js''
+import * as sniplink from 'sniplink.js'
 
-// expiration time must be in unix timestamp
-new sniplink.CreateSnippedLink('1618536464', 'https://google.com/')
+// Put dates in Unix timestamp format
+new sniplink.CreateSnippedLink(1618536464, 'https://google.com/')
   .createSnippedLink()
   .then((res) => console.log(res))
   .catch((err) => console.log(err))
