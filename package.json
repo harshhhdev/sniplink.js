@@ -1,6 +1,6 @@
 {
   "name": "sniplink.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Node.js API wrapper for SnipLink",
   "main": "dist/sniplink.js",
   "type": "module",
