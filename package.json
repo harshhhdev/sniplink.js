@@ -1,6 +1,6 @@
 {
   "name": "sniplink.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Node.js API wrapper for SnipLink",
   "main": "dist/sniplink.js",
   "type": "module",
@@ -16,7 +16,7 @@
   "scripts": {
     "watch": "tsc -w",
     "dev": "nodemon dist/sniplink.js",
-    "build": "tsc"
+    "build": "tsc && tsc --declaration"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
