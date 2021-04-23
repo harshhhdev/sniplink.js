@@ -1,4 +1,4 @@
-import * as sniplink from './../src/sniplink'
+import * as sniplink from 'sniplink.js'
 
 new sniplink.GetSnippedLink('jvX')
   .getLink()
